@@ -21,7 +21,7 @@ css/fonts.css           Local fonts (Montserrat, Cinzel, Kaushan Script, JetBrai
 js/app.js               Nav, starfield, cohort chart, lookup, downloads
 js/certificate.js       Canvas renderer + PNG/PDF export (name position config at the top)
 js/data.js              AUTO-GENERATED participant data
-data/participants.csv   Source of truth — 183 participants (name, roll, dept, year, email)
+data/participants.csv   Source of truth — 184 participants (name, roll, dept, year, email)
 assets/template.jpg     Blank certificate template
 scripts/build-data.mjs  CSV → js/data.js
 scripts/bundle.mjs      Everything → dist/index.html (single file, ~3 MB)
