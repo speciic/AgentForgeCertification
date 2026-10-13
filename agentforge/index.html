@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AgentForge · Hands-on AI Agent Builder Workshop</title>
+  <meta name="description" content="AgentForge — a 3-day, zero-to-deployed AI agent builder workshop at St. Peter's Engineering College, Hyderabad. 6–8 October 2026. Download your participation certificate.">
+  <meta name="theme-color" content="#070722">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' x2='1' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%23b026ff'/%3E%3Cstop offset='.6' stop-color='%23ff2fa6'/%3E%3Cstop offset='1' stop-color='%23ff8a4c'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='%23070722'/%3E%3Cpath d='M20 48V16h26v8H29v6h14v8H29v10z' fill='url(%23g)'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="bg" aria-hidden="true">
+    <div class="bg__glow bg__glow--a"></div>
+    <div class="bg__glow bg__glow--b"></div>
+    <div class="bg__grid"></div>
+    <canvas id="stars"></canvas>
+  </div>
+
+  <header class="nav" id="top">
+    <a class="nav__brand" href="#top" aria-label="AgentForge home">
+      <span class="wm wm--sm"><span class="wm__a">Agent</span><span class="wm__f">Forge</span><span class="wm__dot">.</span></span>
+    </a>
+    <nav class="nav__links" aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#journey">Journey</a>
+      <a href="#cohort">Cohort</a>
+      <a href="#organisers">Organisers</a>
+      <a class="btn btn--sm btn--glow" href="#certificate">Get certificate</a>
+    </nav>
+    <button class="nav__toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <p class="hero__kicker">St. Peter's Engineering College · SPEC IIC &amp; Department of CSE</p>
+      <h1 class="wm wm--xl"><span class="wm__a">Agent</span><span class="wm__f">Forge</span><span class="wm__dot">.</span></h1>
+      <p class="hero__sub">A 3-Day Hands-on Workshop</p>
+      <p class="hero__lede">Zero to deployed. Three days of building, shipping and growing AI agents — hands on keyboards, from the first prompt to a live agent.</p>
+      <div class="hero__meta">
+        <div><span>Dates</span><strong>6 · 7 · 8 Oct 2026</strong></div>
+        <div><span>Venue</span><strong>T1 &amp; T2, SPEC Hyderabad</strong></div>
+        <div><span>Format</span><strong>3 days · Hands-on</strong></div>
+      </div>
+      <div class="hero__cta">
+        <a class="btn btn--glow" href="#certificate">Download your certificate <span aria-hidden="true">→</span></a>
+        <a class="btn btn--ghost" href="#about">About the workshop</a>
+      </div>
+      <p class="script hero__script" aria-hidden="true"><span>Build</span><span>Deploy</span><span>Grow</span></p>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats" aria-label="Workshop in numbers">
+      <div class="stat"><strong data-count="183">183</strong><span>Participants</span></div>
+      <div class="stat"><strong data-count="3">3</strong><span>Days hands-on</span></div>
+      <div class="stat"><strong data-count="5">5</strong><span>Departments</span></div>
+      <div class="stat"><strong data-count="4">4</strong><span>Years of study</span></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="section__head">
+        <p class="eyebrow">About</p>
+        <h2 class="title">An AI Agent Builder <em>Immersion</em></h2>
+      </div>
+      <div class="about">
+        <div class="about__text">
+          <p>AgentForge was a three-day, zero-to-deployed workshop for students who wanted to go beyond chatting with AI and start building with it. Over three back-to-back days, participants worked hands-on to design, build and deploy their own AI agents.</p>
+          <p>Organised by the <strong>SPEC Innovation and Incubation Center</strong> together with the <strong>Department of Computer Science &amp; Engineering</strong>, it brought together 183 students from first year through final year across five departments.</p>
+          <ul class="ticks">
+            <li>Hands-on from the first session — every participant builds</li>
+            <li>From idea to a deployed, working agent in three days</li>
+            <li>Open to all years and branches — no prior agent experience needed</li>
+          </ul>
+        </div>
+        <figure class="about__card">
+          <img src="assets/certificate-preview.jpg" alt="The AgentForge participation certificate" loading="lazy">
+          <figcaption>Every participant receives a personalised participation certificate.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- JOURNEY -->
+    <section class="section" id="journey">
+      <div class="section__head">
+        <p class="eyebrow">The journey</p>
+        <h2 class="title">Build. Deploy. <em>Grow.</em></h2>
+      </div>
+      <ol class="days">
+        <li class="day day--1">
+          <span class="day__no">Day 01 · 6 Oct</span>
+          <h3 class="script">Build</h3>
+          <p>Foundations of AI agents — how they reason, use tools and remember. Set up the toolkit and build a first working agent.</p>
+          <div class="day__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.6 2.6-2.4-.6-.6-2.4z"/></svg></div>
+        </li>
+        <li class="day day--2">
+          <span class="day__no">Day 02 · 7 Oct</span>
+          <h3 class="script">Deploy</h3>
+          <p>Connect agents to real data and APIs, make them reliable, and take them from the laptop to a live, shareable deployment.</p>
+          <div class="day__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2c3 2 5 5.5 5 9.5L19 14l-3 3h-8l-3-3 2-2.5C7 7.5 9 4 12 2zM9 19l3 3 3-3"/><circle cx="12" cy="10" r="2"/></svg></div>
+        </li>
+        <li class="day day--3">
+          <span class="day__no">Day 03 · 8 Oct</span>
+          <h3 class="script">Grow</h3>
+          <p>Refine, extend and present. Teams demo what they built and leave with a working agent and a path to keep going.</p>
+          <div class="day__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 20h18M6 16v-4M11 16V8M16 16v-6M20 6l-4-3-4 4-4-2-4 3"/></svg></div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- COHORT -->
+    <section class="section" id="cohort">
+      <div class="section__head">
+        <p class="eyebrow">The cohort</p>
+        <h2 class="title">183 builders, <em>five departments</em></h2>
+      </div>
+      <div class="cohort">
+        <div class="cohort__chart" id="deptChart" role="img" aria-label="Participants by department and year"></div>
+        <div class="cohort__legend" id="yearLegend"></div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATE PORTAL -->
+    <section class="section portal" id="certificate">
+      <div class="section__head">
+        <p class="eyebrow">Certificate portal</p>
+        <h2 class="title">Get your <em>participation certificate</em></h2>
+        <p class="section__lede">Search by your name, roll number or the email you registered with. Your certificate is generated right here in your browser.</p>
+      </div>
+
+      <form class="search" id="searchForm" autocomplete="off" novalidate>
+        <label class="sr-only" for="q">Your name, roll number or email</label>
+        <div class="search__field">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+          <input id="q" name="q" type="text" inputmode="text" spellcheck="false" placeholder="Your name, roll number or email" required>
+        </div>
+        <button class="btn btn--glow" type="submit">Find my certificate</button>
+      </form>
+      <p class="search__msg" id="searchMsg" role="status" aria-live="polite"></p>
+      <ul class="picks" id="picks" hidden></ul>
+
+      <div class="result" id="result" hidden>
+        <div class="result__card">
+          <p class="eyebrow">Participant verified</p>
+          <h3 class="result__name" id="rName"></h3>
+          <dl class="result__dl">
+            <div><dt>Roll No</dt><dd id="rRoll"></dd></div>
+            <div><dt>Department</dt><dd id="rDept"></dd></div>
+            <div><dt>Year</dt><dd id="rYear"></dd></div>
+            <div><dt>Email</dt><dd id="rEmail"></dd></div>
+          </dl>
+          <div class="result__actions">
+            <button class="btn btn--glow" id="dlPng" type="button" disabled>Download PNG</button>
+            <button class="btn btn--ghost" id="dlPdf" type="button" disabled>Download PDF</button>
+          </div>
+          <button class="link" id="resetBtn" type="button">← Look up someone else</button>
+        </div>
+        <div class="result__preview">
+          <div class="preview__frame">
+            <canvas id="certCanvas" width="4800" height="3200" aria-label="Your certificate preview"></canvas>
+            <div class="preview__loading" id="previewLoading"><span class="spinner"></span>Forging your certificate…</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ORGANISERS -->
+    <section class="section" id="organisers">
+      <div class="section__head">
+        <p class="eyebrow">Organised by</p>
+        <h2 class="title">St. Peter's <em>Engineering College</em></h2>
+        <p class="section__lede">SPEC Innovation and Incubation Center &amp; Department of Computer Science and Engineering · UGC Autonomous · Hyderabad</p>
+      </div>
+      <div class="affil">
+        <img src="assets/affiliations.jpg" alt="Affiliations: Ministry of Education, AICTE, MoE&#39;s Innovation Cell, Institution&#39;s Innovation Council, Computer Society of India, ISTE" loading="lazy">
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span class="wm wm--sm"><span class="wm__a">Agent</span><span class="wm__f">Forge</span><span class="wm__dot">.</span></span>
+    <p>A 3-Day Hands-on AI Agent Builder Workshop · 6–8 October 2026 · St. Peter's Engineering College, Hyderabad</p>
+    <p class="footer__small">Certificates are generated in your browser — no data leaves this page.</p>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/certificate.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
